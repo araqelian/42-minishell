@@ -23,7 +23,7 @@
     <td>readline, &nbsp;rl_clear_history,&nbsp; rl_on_new_line,&nbsp; rl_replace_line,&nbsp; rl_redisplay,<br>add_history,&nbsp; printf,&nbsp; malloc,&nbsp; free, &nbsp;write,&nbsp; access, &nbsp;open, &nbsp;read, &nbsp;close,<br>fork,&nbsp; wait, &nbsp;waitpid, &nbsp;wait3, &nbsp;wait4, &nbsp;signal,&nbsp; sigaction,&nbsp; sigemptyset, &nbsp;sigaddset,<br>kill, &nbsp;exit, &nbsp;getcwd, &nbsp;chdir, &nbsp;stat, &nbsp;lstat, &nbsp;fstat, &nbsp;unlink, &nbsp;execve, &nbsp;dup,&nbsp; dup2,&nbsp; pipe,<br>opendir,&nbsp; readdir, &nbsp;closedir, &nbsp;strerror,&nbsp; perror, &nbsp;isatty,&nbsp; ttyname, &nbsp;ttyslot, &nbsp;ioctl, &nbsp;getenv,<br>tcsetattr, &nbsp;tcgetattr, &nbsp;tgetent, &nbsp;tgetflag, &nbsp;tgetnum, &nbsp;tgetstr,&nbsp; tgoto, &nbsp;tputs</td>
   </tr>
   <tr>
-    <td>Libft &nbsp;authorized Y</td>
+    <td>Libft &nbsp;authorized</td>
     <td>Yes</td>
   </tr>
   <tr>
