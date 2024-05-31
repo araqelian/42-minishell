@@ -82,3 +82,10 @@ The&nbsp; readline()&nbsp; function &nbsp;can&nbsp; cause&nbsp; memory&nbsp; lea
 that &nbsp;doesn’t &nbsp;mean &nbsp;your&nbsp; own&nbsp; code, &nbsp;yes &nbsp;the &nbsp;code &nbsp;you&nbsp; wrote, &nbsp;can &nbsp;have &nbsp;memory&nbsp;
 leaks.
 
+<br><br>
+
+> [!NOTE]  
+> Because of 42 School norm requirements:
+> * Each function can't have more than 25 lines of code.
+> * All variables are declared and aligned at the top of each function.
+> * Project should be created just with allowed functions otherwise it's cheating.
