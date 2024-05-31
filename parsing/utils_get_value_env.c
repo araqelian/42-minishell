@@ -15,16 +15,13 @@
 char	*norm_change_dollar(t_data *data, char *delim)
 {
 	char	*ptr;
-	int		len;
 
 	ptr = 0;
-	len = 0;
 	if (delim && !*delim)
 	{
 		ptr = ft_strdup("$");
 		return (ptr);
 	}
-	len = check_size_str(delim, "?");
 	if (ft_strncmp(delim, "?", 1) == 0)
 	{
 		ptr = ft_itoa(*data->error_code);

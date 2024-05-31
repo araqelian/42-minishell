@@ -65,13 +65,13 @@ void	open_heredoc(t_data *data, int i, int fd, char *heredoc)
 		exit(0);
 	}
 	waitpid(pid, data->error_code, 0);
-	if (WIFSIGNALED(data->error_code))
+	if (WIFSIGNALED(*data->error_code))
 	{
-		data->heredoc = WTERMSIG(data->error_code);
+		data->heredoc = WTERMSIG(*data->error_code);
 		write(1, "\n", 1);
 	}
-	if (WIFEXITED(data->error_code))
-		*data->error_code = WEXITSTATUS(data->error_code);
+	if (WIFEXITED(*data->error_code))
+		*data->error_code = WEXITSTATUS(*data->error_code);
 }
 
 void	count_heredoc_in_pipe(t_data *data, char **pipe, int k, int j)

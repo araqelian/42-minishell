@@ -39,11 +39,9 @@ int	check_variable(t_export *data, char **new_split, int i, char **check_split)
 int	check_change_variable(t_export *data, char **new_split)
 {
 	t_export	*tmp;
-	int			i;
 	char		*str;
 
 	tmp = data;
-	i = 0;
 	str = new_split[0];
 	if (str[ft_strlen(str) - 1] == '=' || str[ft_strlen(str) - 2] == '=')
 	{
@@ -63,9 +61,6 @@ int	check_change_variable(t_export *data, char **new_split)
 
 int	check_add_export(char *str, char *error, int i, int j)
 {
-	char	*check;
-
-	check = 0;
 	if (!str || !*str)
 		return (print_error(error));
 	while (str[i] && (j == 0 || j == 1))

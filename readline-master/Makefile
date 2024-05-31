@@ -31,7 +31,7 @@ PACKAGE_TARNAME = readline
 srcdir = .
 
 top_srcdir = .
-BUILD_DIR = /Users/darakely/Desktop/minishell/readline-master
+BUILD_DIR = /home/kali/Desktop/42/42-minishell/readline-master
 
 INSTALL = /usr/bin/install -c
 INSTALL_PROGRAM = ${INSTALL}
@@ -48,7 +48,7 @@ MV = mv
 
 SHELL = /bin/sh
 
-prefix = /Users/darakely/Desktop/minishell/readline-darakely
+prefix = 
 exec_prefix = ${prefix}
 
 datarootdir = ${prefix}/share

@@ -22,7 +22,7 @@ topdir = ..
 srcdir = .
 
 
-prefix = /Users/darakely/Desktop/minishell/readline-darakely
+prefix = 
 
 datarootdir = ${prefix}/share
 
@@ -49,7 +49,7 @@ RM = rm -f
 INSTALL = /usr/bin/install -c
 INSTALL_DATA = ${INSTALL} -m 644
 
-BUILD_DIR = /Users/darakely/Desktop/minishell/readline-master
+BUILD_DIR = /home/kali/Desktop/42/42-minishell/readline-master
 TEXINPUTDIR = $(srcdir)
 
 MAKEINFO    = LANGUAGE= makeinfo

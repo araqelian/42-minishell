@@ -95,7 +95,6 @@ int	get_execve(t_data *data, char *new_promt, char **env, int i)
 
 int	ft_execve(t_data *data, char *new_promt)
 {
-	int		i;
 	char	*path;
 	char	**correct_env;
 
@@ -103,7 +102,6 @@ int	ft_execve(t_data *data, char *new_promt)
 	path = find_path(correct_env);
 	if (path)
 		data->info_pipe->path = ft_split(path, ':');
-	i = 0;
 	norm_ft_execve(data, correct_env, new_promt, 0);
 	return (0);
 }

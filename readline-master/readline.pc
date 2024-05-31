@@ -1,4 +1,4 @@
-prefix=/Users/darakely/Desktop/minishell/readline-darakely
+prefix=
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

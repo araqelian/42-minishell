@@ -57,13 +57,13 @@ void	add_variable_env(t_data *data, char *split, char **new_split, char *str)
 	if (check)
 		continue_add_variable_env(&new_split, str, check);
 	if (!new_split[0] || !*new_split[0])
-		;
+		write(1, " ", 1);
 	else if (check_add_env(new_split[0]) == -1)
-		;
+		write(1, " ", 1);
 	else if (check_plus_env(data, new_split, 0, 0) == -1)
-		;
+		write(1, " ", 1);
 	else if (norm_add_env(new_split, data) == -1)
-		;
+		write(1, " ", 1);
 	free_array(&new_split);
 }
 
